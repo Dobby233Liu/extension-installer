@@ -9,6 +9,7 @@
   "name": "damn",
   "description": "youre out of luck",
   "version": "6.9.0",
+  "internalVersion": 69,
   "author": "Dobby233Liu",
   "port": false // 是否是移植
 }
