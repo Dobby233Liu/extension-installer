@@ -4,7 +4,7 @@
 |工程|插件|
 |---|---|
 |ProjectNeptune|Example Extension 1.0<br>测试|
-|用户本次打开的工程（临时设计）|工程安装了的插件|
+|用户本次打开的工程|工程安装了的插件|
 # 菜单
 |文件|
 |---|
@@ -25,17 +25,21 @@
 |插件|介绍|
 |---|---|
 |列表源|DokiMod 官方<br>...|
-|Example|真的没有什么|
+|Example|真的没有什么 *NEW*(如果internalVersion大于本地同插件internalVersion的话)|
 
 选择后显示进度条，背后使用某下载器下载插件然后解压插件。
 # 后续
 （如果使用本地插件，我们想要解压后的插件）
-将插件文件先移动到 game 目录。
-然后，如果插件有 add 和 whole 类型的 override，提示用户选择 override 类型。
+将插件文件夹先移动到 game 目录。
+
+- 如果只有一种有效 override，执行仅有的类型相关的操作。（如果仅有 whole 类型，而且目录有其他的文件夹和 rpy* 文件，警告用户。）
+- 如果插件有 add 和 whole 类型的 override，提示用户选择 override 类型。
 |类型|特点|
 |---|---|
 |Add|不影响现有修改，但是某些情况下需要二次修改|
 |Whole|替换文件，覆盖设置|
+
+---
 
 如果选择 Add，删除 whole 相关的文件；
 如果选择 Whole，将 add 相关文件删除，whole 相关文件移动到 game 目录。
