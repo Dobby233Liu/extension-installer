@@ -2,7 +2,7 @@
 **Manifest** 是提供给 App 的一系列信息，使用 JSON 格式。
 目前使用还比较基础。
 
-应存放于 /extensions/*/manifest.json
+文件应存放于 `/extensions/*/manifest.json`。
 # App 内使用
 我太懒，自己去认识。
 # 格式（p-code）
