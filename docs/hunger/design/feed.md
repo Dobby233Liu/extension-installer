@@ -16,7 +16,8 @@ extInfo.name
     "version": "1.0.0", // 简洁的 semver，目前暂时不用
     "internalVersion": 1, // 检测本地版本
     "description": "插件紧缺，帮帮我们", // 我们需要很短的简介，最多也只有 20 字左右
-    "archiveUrl": "https://unforgettable.dk/42.zip" // 可下载的 zip 地址，需要符合 Example Extension 的格式。千万不要用这个示例地址。
+    "archiveUrl": "https://unforgettable.dk/42.zip", // 可下载的 zip 地址，需要符合 Example Extension 的格式。千万不要用这个示例地址。
+    "depth": 0 // 防止 codeload.github 套文件夹
   },
   ...
 ]
