@@ -1,12 +1,29 @@
 [
   {
     "name": "角色神态包",
+    "internalName": "community-emotion-pack",
+    "version": "1.0.1",
+    "internalVersion": 2,
     "description": "来自社区的角色神态包",
-    "archiveUrl": "https://github.com/DokiMod/dokimod-extension-community-emotion-pack/archive/72aa7f990b950c68fdc418b684b5a56c8ad7baa8.zip"
+    "archiveUrl": "https://github.com/DokiMod/dokimod-extension-community-emotion-pack/archive/72aa7f990b950c68fdc418b684b5a56c8ad7baa8.zip",
+    "depth": 1
   },
   {
     "name": "Blinky Flappers!",
-    "description": "动态角色（移植）",
-    "archiveUrl": "https://github.com/DokiMod/dokimod-extension-blinky-flappers/archive/a348e6b8363d886876fcbad484961a64b54c2343.zip"
+    "internalName": "blinky-flappers",
+    "version": "2.2.2",
+    "internalVersion": 9,
+    "description": "为角色添加动画（移植）",
+    "archiveUrl": "https://github.com/DokiMod/dokimod-extension-blinky-flappers/archive/a348e6b8363d886876fcbad484961a64b54c2343.zip",
+    "depth": 1
+  },
+  {
+    "name": "不要晴天娃娃！！！",
+    "internalName": "no-hanging",
+    "version": "1.0",
+    "internalVersion": 1,
+    "description": "去除“晴天娃娃”和自裁相关贴图",
+    "archiveUrl": "https://github.com/DokiMod/dokimod-extension-no-hanging/archive/8467e1c5471317b0c4463781c0479ad32ee1b044.zip",
+    "depth": 1
   }
 ]
