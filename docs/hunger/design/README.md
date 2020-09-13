@@ -24,10 +24,23 @@
 
 |插件|介绍|
 |---|---|
-|列表源|DokiMod 官方<br>...|
+|列表源|DokiMod 官方<br>...<br>添加源...|
 |Example|真的没有什么 *NEW*(如果internalVersion大于本地同插件internalVersion的话)|
 
-选择后显示进度条，背后使用某下载器下载插件然后解压插件。
+---
+## 添加源
+
+```
+请填写这些文本框blahblah
+
+名字 DankyModz
+URL https://torito.org.cn.net.com.uk/~sixty-nine/dokimod-hell/zzz.json
+```
+完成后在背后下载源然后显示出来就好了。
+
+---
+
+用户选择一个插件后我们就显示进度条，背后使用某下载器下载并解压插件。
 # 后续
 （如果使用本地插件，我们想要解压后的插件）
 将插件文件夹先移动到 game 目录。
