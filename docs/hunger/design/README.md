@@ -25,9 +25,10 @@
 |插件|介绍|
 |---|---|
 |列表源|DokiMod 官方<br>...<br>添加源...|
-|Example|真的没有什么 *NEW*(如果internalVersion大于本地同插件internalVersion的话)|
+|Example|真的没有什么（空格空格）<br/>*NEW*(如果internalVersion大于本地同插件internalVersion的话)|
 
 ---
+
 ## 添加源
 
 ```
@@ -40,6 +41,7 @@ URL https://torito.org.cn.net.com.uk/~sixty-nine/dokimod-hell/zzz.json
 
 ## 选择已有源
 在某个地方（来一个JSON设置/注册表？）拿先前保存好的对应源信息，解析一下。
+
 ---
 
 用户选择一个插件后我们就显示进度条，背后使用某下载器下载并解压插件。
