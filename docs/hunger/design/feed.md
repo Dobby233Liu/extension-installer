@@ -3,7 +3,7 @@
 # App 内的使用
 用户在“选择列表”下拉选项框内选择任意用户添加或者应用内置的源（默认选择官方插件列表），然后 App 下载相关列表源的数据，提供给 JSON 库解析，完成后使用获得的信息在“下载插件”界面内显示插件。
 ```
-extInfo.name
+extInfo.name       extNew?"*NEW*":""
     extInfo.description
 ```
 （当然，还会 truncate）
