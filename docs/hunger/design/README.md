@@ -58,7 +58,7 @@ URL https://torito.org.cn.net.com.uk/~sixty-nine/dokimod-hell/zzz.json
 
 将插件相关文件先移动到 game 目录。
 
-- 如果只有一种有效 override，执行仅有的类型相关的操作。（如果仅有 whole 类型，而且目录有其他的文件夹和 rpy* 文件，警告用户。）
+- 如果只有一种有效 override，执行仅有的类型相关的操作。（如果仅有 whole 类型，而且目录有其他的文件夹，警告用户。）
 - 如果插件有 add 和 whole 类型的 override，提示用户选择 override 类型。
 
 |类型|特点|
