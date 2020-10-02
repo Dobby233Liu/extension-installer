@@ -4,7 +4,7 @@
 
 文件应存放于 `/extensions/?/manifest.json`。
 # App 内使用
-请看 [App 的文档](https://github.com/Dobby233Liu/extension-installer/tree/master/docs/hunger/design#%E9%A6%96%E9%A1%B5%E9%9D%A2)。
+请看 [App 的文档](https://github.com/Dobby233Liu/extension-installer/blob/master/docs/hunger/design/README.md#%E9%A6%96%E9%A1%B5%E9%9D%A2)。
 # 格式（p-code）
 ```javascript
 {
