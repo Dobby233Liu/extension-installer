@@ -52,7 +52,7 @@ URL https://torito.org.cn.net.com.uk/~sixty-nine/dokimod-hell/zzz.json
 
 # 验证插件是否标准
 
-TODO
+临时：extension 文件夹应只有一个子文件夹（？），除它之外的文件夹不应有一个rpy/rpym/rpyc/rpymc文件，它也需要符合示例插件的格式（目前不包含info.md）。
 
 # 后续
 
